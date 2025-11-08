@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI Calculator</title>
+</head>
+<body id="bdy">
+    <div class="main">
+        <div class="content">
+            <h1>Check your <span>bmi</span></h1>
+            <h1>regular</h1>
+            <h2>and be healthy!</h2>
+        </div>
+        <div class="calculator">
+            <h1><span id="spn">bmi</span> Calculator</h1>
+            <p>Easy to find out </br> how is your Health today!</p>
+            <form action="#" id="form">
+                <div class="inp">
+                    <input type="number" placeholder="Your height in Cm" id="height">
+                    <input type="number" placeholder="Your weight" id="weight">
+                </div>
+                <div class="btn">
+                    <input type="submit" value="Calculate" id="button">
+                </div>
+            </form>
+            <div class="show">
+                <p class="rate">Your Health rate!</p>
+                <h1 id="score">0.00</h1>
+                <p id="healthy">Your health rate will appear here!</p>
+            </div>
+        </div>
+    </div>
+    <script src="bmi.js"></script>
+</body>
+</html>
