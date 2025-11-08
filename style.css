@@ -141,13 +141,15 @@ body {
         font-size: 3rem;
     }
     .main .content h2 {
-        font-size: 2rem;
+        font-size: 2.2rem;
+        margin-top: 10px;
     }
     .main .calculator {
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         padding: 50px 20px;
         margin-bottom: 100px;
+        box-shadow: unset;
     }
     .main .calculator h1 {
         font-size: 30px;
